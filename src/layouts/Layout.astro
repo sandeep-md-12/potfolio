@@ -18,24 +18,21 @@ const {
   image = CV.basics.image,
   canonicalURL = CV.basics.url,
   keywords = [
-    "sandeepkumar",
-    "AJ Dev",
-    "Anmol Pro",
-    "Full Stack Developer",
-    "Frontend Developer",
-    "Backend Developer",
-    "Web Developer",
+    "Sandeepkumar M D",
+    "Backend Engineer",
+    "Full Stack Engineer",
     "Software Engineer",
+    "Python Developer",
+    "FastAPI Developer",
+    "Django Developer",
+    "Node.js Developer",
     "React Developer",
-    "Next.js Developer",
-    "TypeScript Developer",
-    "Go Developer",
-    "Panipat",
+    "PostgreSQL",
+    "AWS",
+    "Tiruppur",
+    "Tamil Nadu",
     "India",
-    "Portfolio",
-    "E-commerce Projects",
-    "Music App",
-    "Social Media App"
+    "Portfolio"
   ]
 } = Astro.props;
 
@@ -43,14 +40,14 @@ const { url, theme, name, location } = CV.basics;
 const { city, region } = location;
 
 // Create a more detailed description
-const detailedDescription = `sandeepkumar (sk Dev) - Full Stack Developer. Explore my portfolio, projects, and contact info. Frontend, backend, and more.`;
+const detailedDescription = `${name} - ${CV.basics.label}. Explore my portfolio, experience, projects, and contact info.`;
 
 // Create structured data for better SEO
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": name,
-  "alternateName": "AJ Dev",
+  "alternateName": "SK Dev",
   "jobTitle": CV.basics.label,
   "url": url,
   "email": CV.basics.email,

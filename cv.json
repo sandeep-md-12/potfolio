@@ -1,18 +1,18 @@
 {
   "analyticsCode": "",
   "basics": {
-    "name": "SANDEEP KUMAR",
-    "label": "Software Engineer",
+    "name": "Sandeep kumar",
+    "label": "Backend Engineer | Full Stack Engineer",
     "animated_main_label": "Engineer",
-    "animated_secondary_initial_label": "Software",
-    "animated_secondary_final_label": "fullstack",
+    "animated_secondary_initial_label": "Backend",
+    "animated_secondary_final_label": "Full Stack",
     "image": "/pfp.jpeg",
     "email": "mdsandeepkumar12@gmail.com",
     "url": "https://github.com/sandeep-md-12",
-    "summary": "Software Engineer with expertise in building enterprise applications using AI-accelerators, React, Node.js, FastAPI, and AWS. Experienced in developing scalable full-stack solutions with AI-assisted development tools like Amazon Q Developer and Kiro AI.",
+    "summary": "Backend and Full Stack Engineer with 1.8 years of experience taking product features from requirements to production with Python (FastAPI, Django), Node.js, React, PostgreSQL and AWS. Practices spec-driven development with AI tools (Claude, Cursor, Kiro), turning requirements into clear specs before building software that solves real problems for the teams who use it. Open to relocation and remote. Available immediately.",
     "theme": "platinum",
     "location": {
-      "address": "Chennai",
+      "address": "Tiruppur",
       "city": "Tamil Nadu",
       "countryCode": "IN",
       "region": "India"
@@ -43,28 +43,49 @@
   },
   "work": [
     {
+      "name": "HLM",
+      "position": "Backend Developer (Freelance)",
+      "location_type": "Remote",
+      "location": "Human Resource Management Platform",
+      "startDate": "2026-05-01",
+      "endDate": "2026-09-30",
+      "summary": "Designed and shipped FastAPI REST APIs and microservices powering the employee experience and HR workflow modules for a platform serving 12,000 employees.",
+      "responsibilities": [
+        "Designed and shipped FastAPI REST APIs and microservices on Python and PostgreSQL with JWT authentication, Redis and Docker Compose. These power the employee experience and HR workflow modules for a platform serving 12,000 employees.",
+        "Owned the new medical insurance module end to end. It's a 5-stage workflow (enrolment, premium management, employee acceptance, e-card upload, document download) with PostgreSQL stage tracking and AWS S3 file storage.",
+        "Built the new reward disbursement feature. Managers evaluate, score and approve contributions by category, and employees redeem points for payouts or vouchers (2 redemption options).",
+        "Built a reusable push-notification service so every HR module can alert employees without extra backend work. Alerts are queued in Redis and delivered with Firebase Cloud Messaging, and requirements were turned into specs before coding."
+      ],
+      "skills": {
+        "Python": "simple-icons:python",
+        "FastAPI": "simple-icons:fastapi",
+        "PostgreSQL": "simple-icons:postgresql",
+        "Redis": "simple-icons:redis",
+        "Docker": "simple-icons:docker",
+        "AWS S3": "simple-icons:amazons3",
+        "Firebase": "simple-icons:firebase"
+      }
+    },
+    {
       "name": "Avasoft",
       "position": "Software Engineer",
       "location_type": "On-site",
       "location": "Chennai, Tamil Nadu",
       "url": "https://avasoft.com/",
       "startDate": "2025-03-01",
-      "endDate": null,
-      "summary": "Engineering FastAPI backends and React frontends for enterprise applications using AI-assisted development tools, serving 1,000+ daily users.",
+      "endDate": "2026-01-31",
+      "summary": "Shipped invoice processing and operations features for enterprise products used by 1,000+ daily staff users.",
       "responsibilities": [
-        "Engineered FastAPI backend for Opstream invoice system using Amazon Q Developer and Kiro AI, accelerating reconciliation by 40%.",
-        "Architected full-stack Racpad enterprise features with React, Node.js, PostgreSQL, and AI-assisted code generation.",
-        "Developed Absence Tracker leave management system, streamlining approvals for 500+ employees."
+        "Cut the operations team's Opstream invoice processing time by 40% for about 2,000 purchase orders a week. The new feature normalizes 5 ERP-specific JSON formats into one PostgreSQL schema.",
+        "Shipped new Racpad features for 1,000+ daily staff users, including parcel pickup and drop-off assignment and delivery receipts in US English and Mexican Spanish behind feature flags. Built with React, Node.js microservices and JWT.",
+        "Wrote Jest unit tests with mocked dependencies for Racpad's Node.js APIs in Agile Scrum sprints."
       ],
       "skills": {
-        "Python": "simple-icons:python",
-        "FastAPI": "simple-icons:fastapi",
         "React": "simple-icons:react",
         "Node.js": "ri:nodejs-line",
         "PostgreSQL": "simple-icons:postgresql",
-        "AWS": "simple-icons:amazonaws",
         "TypeScript": "simple-icons:typescript",
-        "GitLab": "simple-icons:gitlab"
+        "Jest": "simple-icons:jest"
       }
     },
     {
@@ -75,18 +96,19 @@
       "url": "https://avasoft.com/",
       "startDate": "2024-09-01",
       "endDate": "2025-02-28",
-      "summary": "Supported enterprise projects with React frontend development and AWS CloudWatch monitoring implementation.",
+      "summary": "Built the Absence Tracker end to end, a secret-scanning pre-commit hook, and React and Node.js features for enterprise projects.",
       "responsibilities": [
-        "Supported enterprise projects with React, Node.js frontend development and AWS CloudWatch monitoring implementation.",
-        "Refactored 8 React components in enterprise dashboard, improving load times by 25% and enhancing user experience across 500+ employee workflows.",
-        "Contributed to code reviews and GitLab CI/CD pipeline optimization for faster deployment cycles."
+        "Owned the new Absence Tracker end to end. It gives 500+ employees one workflow for leave requests and gives approvers a multi-stage approval and status view.",
+        "Built git-warden, a Go CLI pre-commit hook that scans for 50+ credential patterns and blocks commits that leak secrets.",
+        "Implemented AWS CloudWatch logging and monitoring and improved GitLab CI/CD pipelines.",
+        "Built React and Node.js features, refactored 8 React components and reviewed teammates' code."
       ],
       "skills": {
         "React": "simple-icons:react",
         "Node.js": "ri:nodejs-line",
-        "AWS CloudWatch": "simple-icons:amazonaws",
-        "GitLab": "simple-icons:gitlab",
-        "JavaScript": "simple-icons:javascript"
+        "Go": "simple-icons:go",
+        "AWS CloudWatch": "simple-icons:amazoncloudwatch",
+        "GitLab": "simple-icons:gitlab"
       }
     }
   ],
@@ -94,179 +116,47 @@
     {
       "institution": "Bannari Amman Institute of Technology",
       "url": "https://www.bitsathy.ac.in/",
-      "area": "Computer Technology",
+      "area": "B.Tech, Computer Technology · CGPA 7.96/10",
       "studyType": "Bachelor of Technology",
-      "startDate": "2021-01-01",
-      "endDate": "2025-01-01",
-      "score": "7.96",
+      "startDate": "2021-11-01",
+      "endDate": "2025-04-30",
+      "score": "7.96/10",
       "courses": []
     }
   ],
   "certificates": [],
   "skills": [
-    {
-      "name": "Python",
-      "icon": "simple-icons:python",
-      "level": "Advanced",
-      "keywords": [
-        "Backend",
-        "AI Development",
-        "FastAPI"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "icon": "simple-icons:javascript",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "icon": "simple-icons:typescript",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Type Safety"
-      ]
-    },
-    {
-      "name": "C",
-      "icon": "simple-icons:c",
-      "level": "Intermediate",
-      "keywords": [
-        "Programming",
-        "Systems"
-      ]
-    },
-    {
-      "name": "SQL",
-      "icon": "simple-icons:postgresql",
-      "level": "Advanced",
-      "keywords": [
-        "Databases",
-        "Data Management"
-      ]
-    },
-    {
-      "name": "React",
-      "icon": "simple-icons:react",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "UI Development"
-      ]
-    },
-    {
-      "name": "Node.js",
-      "icon": "ri:nodejs-line",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "FastAPI",
-      "icon": "simple-icons:fastapi",
-      "level": "Advanced",
-      "keywords": [
-        "Backend",
-        "Python",
-        "API Development"
-      ]
-    },
-    {
-      "name": "AWS",
-      "icon": "simple-icons:amazonaws",
-      "level": "Intermediate",
-      "keywords": [
-        "Cloud Computing",
-        "Backend",
-        "Infrastructure",
-        "CloudWatch"
-      ]
-    },
-    {
-      "name": "PostgreSQL",
-      "icon": "simple-icons:postgresql",
-      "level": "Advanced",
-      "keywords": [
-        "Backend",
-        "Databases",
-        "SQL",
-        "Relational Database"
-      ]
-    },
-    {
-      "name": "DynamoDB",
-      "icon": "simple-icons:amazondynamodb",
-      "level": "Intermediate",
-      "keywords": [
-        "NoSQL",
-        "AWS",
-        "Databases"
-      ]
-    },
-    {
-      "name": "GitLab",
-      "icon": "simple-icons:gitlab",
-      "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "CI/CD",
-        "DevOps"
-      ]
-    },
-    {
-      "name": "Git",
-      "icon": "mdi:git",
-      "level": "Advanced",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "VS Code",
-      "icon": "simple-icons:visualstudiocode",
-      "level": "Advanced",
-      "keywords": [
-        "IDE",
-        "Development Tools"
-      ]
-    },
-    {
-      "name": "Postman",
-      "icon": "simple-icons:postman",
-      "level": "Advanced",
-      "keywords": [
-        "API",
-        "Testing",
-        "Web Development",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Solidity",
-      "icon": "simple-icons:solidity",
-      "level": "Intermediate",
-      "keywords": [
-        "Blockchain",
-        "Smart Contracts",
-        "Web3"
-      ]
-    }
+    { "name": "Python", "icon": "simple-icons:python", "level": "Advanced", "keywords": ["Languages", "Backend"] },
+    { "name": "TypeScript", "icon": "simple-icons:typescript", "level": "Advanced", "keywords": ["Languages", "Frontend", "Backend"] },
+    { "name": "JavaScript", "icon": "simple-icons:javascript", "level": "Advanced", "keywords": ["Languages", "Frontend", "Backend"] },
+    { "name": "SQL", "icon": "simple-icons:postgresql", "level": "Advanced", "keywords": ["Languages", "Databases"] },
+    { "name": "Go", "icon": "simple-icons:go", "level": "Intermediate", "keywords": ["Languages", "CLI"] },
+    { "name": "C", "icon": "simple-icons:c", "level": "Intermediate", "keywords": ["Languages"] },
+    { "name": "FastAPI", "icon": "simple-icons:fastapi", "level": "Advanced", "keywords": ["Backend", "REST API design", "Microservices"] },
+    { "name": "Django", "icon": "simple-icons:django", "level": "Intermediate", "keywords": ["Backend", "Python"] },
+    { "name": "Flask", "icon": "simple-icons:flask", "level": "Intermediate", "keywords": ["Backend", "Python"] },
+    { "name": "Node.js", "icon": "ri:nodejs-line", "level": "Advanced", "keywords": ["Backend", "Microservices", "JWT"] },
+    { "name": "SQLAlchemy", "icon": "simple-icons:sqlalchemy", "level": "Advanced", "keywords": ["Backend", "ORM", "Alembic migrations"] },
+    { "name": "PostgreSQL", "icon": "simple-icons:postgresql", "level": "Advanced", "keywords": ["Databases", "Schema design"] },
+    { "name": "Redis", "icon": "simple-icons:redis", "level": "Intermediate", "keywords": ["Databases", "Queues", "Caching"] },
+    { "name": "DynamoDB", "icon": "simple-icons:amazondynamodb", "level": "Intermediate", "keywords": ["Databases", "NoSQL", "AWS"] },
+    { "name": "AWS", "icon": "simple-icons:amazonaws", "level": "Intermediate", "keywords": ["Cloud", "S3", "CloudWatch"] },
+    { "name": "Docker", "icon": "simple-icons:docker", "level": "Intermediate", "keywords": ["DevOps", "Docker Compose"] },
+    { "name": "GitLab CI/CD", "icon": "simple-icons:gitlab", "level": "Intermediate", "keywords": ["DevOps", "CI/CD"] },
+    { "name": "pytest", "icon": "simple-icons:pytest", "level": "Advanced", "keywords": ["Testing"] },
+    { "name": "Jest", "icon": "simple-icons:jest", "level": "Intermediate", "keywords": ["Testing"] },
+    { "name": "Playwright", "icon": "simple-icons:playwright", "level": "Intermediate", "keywords": ["Testing", "E2E"] },
+    { "name": "Postman", "icon": "simple-icons:postman", "level": "Advanced", "keywords": ["Testing", "API"] },
+    { "name": "React", "icon": "simple-icons:react", "level": "Advanced", "keywords": ["Frontend"] },
+    { "name": "Next.js", "icon": "simple-icons:nextdotjs", "level": "Intermediate", "keywords": ["Frontend"] },
+    { "name": "Tailwind CSS", "icon": "simple-icons:tailwindcss", "level": "Intermediate", "keywords": ["Frontend", "CSS"] },
+    { "name": "HTML & CSS", "icon": "simple-icons:html5", "level": "Advanced", "keywords": ["Frontend"] },
+    { "name": "Git", "icon": "mdi:git", "level": "Advanced", "keywords": ["Tools", "GitHub", "GitLab"] },
+    { "name": "Firebase Cloud Messaging", "icon": "simple-icons:firebase", "level": "Intermediate", "keywords": ["Tools", "Push notifications"] },
+    { "name": "Claude", "icon": "simple-icons:claude", "level": "Advanced", "keywords": ["AI-assisted development", "Spec-driven development"] },
+    { "name": "Cursor", "icon": "mdi:cursor-text", "level": "Advanced", "keywords": ["AI-assisted development"] },
+    { "name": "Amazon Q Developer", "icon": "simple-icons:amazonwebservices", "level": "Intermediate", "keywords": ["AI-assisted development"] },
+    { "name": "Kiro", "icon": "mdi:robot", "level": "Intermediate", "keywords": ["AI-assisted development", "Spec-driven development"] }
   ],
   "languages": [
     {
@@ -276,86 +166,65 @@
     {
       "language": "Tamil",
       "fluency": "Native speaker"
-    },
-    {}
+    }
   ],
   "projects": [
     {
-      "name": "Invoice Reconciliation System - Opstream",
+      "name": "PG Management SaaS",
       "isActive": true,
-      "description": "AI-accelerated backend for enterprise invoice management handling 10K+ invoices monthly with 99% uptime.",
+      "description": "A multi-tenant platform for hostel/PG owners, wardens and tenants that digitizes rent collection, with an income dashboard, a tenant grievance portal and role-based access for super admin, owner and warden.",
       "highlights": [
-        "⚡ Engineered FastAPI APIs using Amazon Q Developer - reduced processing by 40%",
-        "🔧 Optimized PostgreSQL queries with Kiro AI debugging - achieved 99% uptime",
-        "📊 Designed schema handling 10K+ invoices monthly",
-        "🤖 Leveraged AI-assisted development for rapid feature deployment"
+        "🏗️ Layered FastAPI backend with JWT, rate limiting and Alembic migrations",
+        "📊 Indexed PostgreSQL queries for rent and electricity invoicing, partial payments and defaulter tracking",
+        "🔐 Role-based access for super admin, owner and warden",
+        "✅ Tested with 73 pytest tests and Playwright E2E tests"
       ],
       "stack": {
-        "Python": "simple-icons:python",
         "FastAPI": "simple-icons:fastapi",
         "PostgreSQL": "simple-icons:postgresql",
-        "Amazon Q": "simple-icons:amazonaws"
+        "React": "simple-icons:react",
+        "SQLAlchemy / Alembic": "simple-icons:sqlalchemy",
+        "pytest": "simple-icons:pytest"
       }
     },
     {
-      "name": "Racpad - Full-Stack Enterprise App",
+      "name": "git-warden",
       "isActive": true,
-      "description": "AI-integrated enterprise workflow platform serving 1,000+ daily users with real-time monitoring.",
+      "github": "https://github.com/sandeep-md-12/git-warden",
+      "description": "A cross-platform CLI pre-commit hook that blocks commits which would leak secrets.",
       "highlights": [
-        "� Built React/Node.js features for 1,000+ daily users using AI code agents",
-        "� Implemented AWS CloudWatch monitoring, cutting error resolution by 30%",
-        "� Deployed scalable architecture with PostgreSQL backend",
-        "🔄 Optimized GitLab CI/CD pipeline for faster deployments"
+        "🔍 Scans staged Git diffs with entropy analysis and regex rules",
+        "🔑 Detects 50+ credential patterns (AWS, OpenAI, Stripe, Slack)",
+        "🛑 Blocks commits that would leak secrets",
+        "💻 Cross-platform Go CLI"
       ],
       "stack": {
-        "React": "simple-icons:react",
-        "Node.js": "ri:nodejs-line",
-        "PostgreSQL": "simple-icons:postgresql",
-        "AWS": "simple-icons:amazonaws",
-        "GitLab": "simple-icons:gitlab"
-      }
-    },
-    {
-      "name": "Absence Tracker: Leave Management",
-      "isActive": true,
-      "description": "Full-stack enterprise leave tracking system streamlining approvals for 500+ employees.",
-      "highlights": [
-        "✅ Streamlined leave approvals for 500+ employees by 25% via full-stack AWS deployment",
-        "� Implemented secure Node.js REST APIs with PostgreSQL for real-time leave requests",
-        "🎨 Designed intuitive React UI with role-based access, boosting manager efficiency by 25%",
-        "� Built automated notification system for approval workflows"
-      ],
-      "stack": {
-        "React": "simple-icons:react",
-        "Node.js": "ri:nodejs-line",
-        "PostgreSQL": "simple-icons:postgresql",
-        "AWS": "simple-icons:amazonaws"
+        "Go": "simple-icons:go",
+        "Git": "mdi:git"
       }
     },
     {
       "name": "Blockchain E-Voting System",
       "isActive": true,
-      "description": "Smart India Hackathon 2022 Finalist - Secure decentralized voting system using blockchain technology.",
+      "description": "Smart India Hackathon 2022 Grand Finalist: a decentralized voting system built on smart contracts.",
       "highlights": [
-        "🏆 Achieved Smart India Hackathon 2022 Grand Finale as national finalist among 2,000+ teams",
-        "👨‍� Led 6-member team to deploy Solidity smart contracts and Web3.js frontend",
-        "🔐 Implemented secure, transparent, and tamper-proof voting mechanism",
-        "⛓️ Designed decentralized architecture for trustless voting"
+        "🏆 Reached the Smart India Hackathon 2022 Grand Finale, out of 2,000+ teams",
+        "👥 Led a 6-member team",
+        "⛓️ Solidity smart contracts with a Web3.js frontend"
       ],
       "stack": {
         "Solidity": "simple-icons:solidity",
         "Web3.js": "simple-icons:web3dotjs",
-        "Ethereum": "simple-icons:ethereum",
-        "JavaScript": "simple-icons:javascript"
+        "Ethereum": "simple-icons:ethereum"
       }
     }
   ],
   "achievements": [
     {
-      "title": "Smart India Hackathon 2022 Finalist",
+      "title": "Smart India Hackathon 2022 Grand Finalist",
       "date": "2022-08-01",
       "awarder": "Government of India",
-      "summary": "Led team to Grand Finale against 2,000+ teams nationwide for Blockchain E-Voting System"
+      "summary": "Led a 6-member team to the Grand Finale, out of 2,000+ teams, with a Blockchain E-Voting System"
     }
   ]
 }
