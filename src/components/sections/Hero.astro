@@ -27,8 +27,8 @@ const { city, region, address } = location
             loading='eager' />
         </figure>
         <div class="flex flex-col items-center">
-          <h1 class=" font-semibold ">{name}</h1>
-          <div data-ccursor="noPadding" class="mt-1 p-1 flex flex-col gap-1 font-roboto-condensed font-bold text-xl lg:text-[1rem] lg:leading-[1.25rem]">
+          <h1>{name}</h1>
+          <div data-ccursor="noPadding" class="mt-2 flex flex-col gap-0.5 text-sm font-medium leading-snug text-skin-muted">
             {label.split('|').map((role) => <p>{role.trim()}</p>)}
           </div>
         </div>
@@ -83,7 +83,7 @@ const { city, region, address } = location
   }
 
   h1 {
-    @apply text-4xl font-bold print:text-3xl;
+    @apply text-2xl font-bold leading-tight tracking-wide text-balance print:text-2xl;
   }
 
   h2 {
